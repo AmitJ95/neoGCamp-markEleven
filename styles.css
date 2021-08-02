@@ -1,0 +1,39 @@
+
+:root{
+    --primary-color: "#E5E7EB";
+}
+
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+.heading{
+    display: block;
+    height: 100px;
+    width: 330px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.content{
+    display: block;
+    height: 200px;
+    width: 330px;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+label{
+    display: block;
+    margin: 1rem;
+}
+
+.output{
+  
+}
