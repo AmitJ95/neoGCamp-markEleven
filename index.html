@@ -10,19 +10,22 @@
 <body>
 
     <div class="container">
-        <div class="heading">
+        <div class="heading">   
             <h1>Is your birthday lucky?</h1>
         </div>
 
         <div class="content">
             <strong>Privacy Notice: We are not storing your 
                 data for any kind of purpose</strong>
-                <label for="birthDate">Select your birth date</label>
-                <input type="date" name="birthDate" id="birthDate" />
-
-                <label for="luckyNum">Enter your lucky number</label>
-                <input type="number" id="luckyNum"/>
-                <button id="check-btn">Check</button>
+                <form>
+                    <label for="birthDate">Select your birth date</label>
+                    <input type="date" name="birthDate" id="birthDate" required="required" />
+    
+                    <label for="luckyNum">Enter your lucky number</label>
+                    <input type="number" name="luckyNum "id="luckyNum" required="required"/>
+                    <button id="check-btn" type="button">Check</button>
+                </form>
+                
                 <div class="output"></div>
 
         </div>
