@@ -23,10 +23,10 @@ function checkLuckyDay(params) {
 
       if (sum % luckyNumValue == 0) {
         outputDiv.style.display="block";
-        outputDiv.innerText = "Your birthday is lucky";
+        outputDiv.innerText = "Your birthday is lucky 😊";
       } else {
         outputDiv.style.display="block";
-        outputDiv.innerText = "Your birthday is not lucky";
+        outputDiv.innerText = "Your birthday is not lucky 😔";
       }
     });
   } else {
